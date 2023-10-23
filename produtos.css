@@ -1,10 +1,10 @@
-.produto{
+.produtos{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-.produto li{
+.produtos li{
     display: inline-block;
     width: 30%;
     vertical-align: top;
@@ -15,12 +15,38 @@
     text-align: center;
 }
 
-.produto li:hover{
+.produtos li:hover{
     transition: 0,5;
     border-color: black;
 }
 
-.produto li:hover h2{
+.produtos li:hover h2{
     transition: 0.5s;
     font-size: 32px;
+}
+
+.produtos li:hover .produtos-preco{
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.produtos li:active{
+    transition: 0s;
+    border-color: aqua;
+}
+
+.produtos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    text-align: center;
+}
+
+.produtos-preco{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
