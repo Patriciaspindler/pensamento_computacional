@@ -82,24 +82,6 @@ body{
     text-align: justify;
 }
 
-#banner{
-    width: 100%;
-    height: auto;
-}
-
-.principal{
-    padding: 3em 0;
-    width: 940px;
-    margin: 0 auto;
-}
-
-#utensilios{
-    width:120px ;
-    height: 120px;
-    float: left;
-    margin: auto
-    border: ;
-}
 /*footer*/
 
 
